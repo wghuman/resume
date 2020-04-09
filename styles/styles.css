@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body
+{
+    background: #555d74;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2a4e2d;
+
+}
+
+.bold
+{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.semi_bold
+{
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.resume
+{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+.resume .resume_left
+{
+    width: 280px;
+    background-color: bisque;
+}
+
+.resume .resume_left .resume_profile
+{
+    width: 100%;
+    height: 280px;
+}
+
+.resume .resume_left .resume_profile img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+.resume .resume_left .resume_content
+{
+    padding: 0 25px;
+}
+
+.resume .title
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.resume .resume_right
+{
+    width: 580px;
+    background: #B71C1C;
+}
+
+.resume .resume_left .bold
+{
+    color: crimson;
+}
+.resume .resume_left .semi_bold
+{
+    color: firebrick;
+}
+
+.resume .resume_left .regular
+{
+    color: black;
+}
+.resume .resume_item
+{
+    padding: 25px 0;
+    border-bottom: #B71C1C 2px dotted;    
+}
+
+.resume .resume_left .resume_item:last-child
+{
+    border-bottom: 0px;
+}
+
+.resume .resume_left ul li
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.resume .resume_left ul li:last-child
+{
+    margin-bottom: 0px;
+}
+
+.resume .resume_left ul li .icon
+{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: crimson;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 15px;
+    position: relative;
+}
+
+.resume .icon i 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resume .resume_left .resume_skills ul li
+{
+    justify-content: space-between;
+}
+
+.resume .resume_left .resume_skills ul li .skill_name
+{
+    width: 25%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress
+{
+    width: 60%;
+    margin: 0 5px;
+    height: 3px;
+    background: #fff;
+    position: relative;
+}
+
+.resume .resume_left .resume_skills ul li .skill_per
+{
+    width: 15%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress span
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: crimson;
+
+}
